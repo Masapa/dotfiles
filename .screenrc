@@ -1,0 +1,9 @@
+startup_message off
+vbell off
+altscreen on
+autodetach on
+defscrollback 30000
+
+term "screen-256color"
+hardstatus alwayslastline "%{b kw}%S %{b kw}%H %{r}%1` %{w}| %{g}%c %{w}| %{y}%d.%m.%Y %{w}| %{g}%l %{w}| %{-b kw}%u %-Lw%{= rW}%50> %n%f %t %{-}%+Lw%<"
+
