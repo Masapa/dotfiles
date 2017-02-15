@@ -6,7 +6,7 @@
 	url = https://github.com/scrooloose/nerdtree.git
 [Submodule "dikiaap/minimalist"]
 	path = vim/.vim/bundle/minimalist
-	url = https://githu.com/dikiaap/minimalist.git
+	url = https://github.com/dikiaap/minimalist.git
 [Submodule "vim-syntastic/syntastic"]
 	path = vim/.vim/bundle/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
