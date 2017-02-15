@@ -1,0 +1,34 @@
+[Submodule "Raimondi/delimitMate"]
+	path = vim/.vim/bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[Submodule "scrooloose/nerdtree"]
+	path = vim/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[Submodule "dikiaap/minimalist"]
+	path = vim/.vim/bundle/minimalist
+	url = https://githu.com/dikiaap/minimalist.git
+[Submodule "vim-syntastic/syntastic"]
+	path = vim/.vim/bundle/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[Submodule "tomtom/tlib_vim"]
+	path = vim/.vim/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[Submodule "vim-airline/vim-airline"]
+	path = vim/.vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[Submodule "altercation/vim-colors-solarized"]
+	path = vim/.vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[Submodule "garbas/vim-snipmate"]
+	path = vim/.vim/bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate
+[Submodule "honza/vim-snippets"]
+	path = vim/.vim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[Submodule "MarcWeber/vim-addon-mw-utils"]
+	path = vim/.vim/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[Submodule "robbyrussell/oh-my-zsh"]
+	path = zsh/.oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
+
