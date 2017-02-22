@@ -32,3 +32,7 @@
 	path = zsh/.oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
 
+[Submodule "haya14busa/incsearch"]
+	path = vim/.vim/bundle/incsearch
+	url = https://github.com/haya14busa/incsearch.vim.github
+
