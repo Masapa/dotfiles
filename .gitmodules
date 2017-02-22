@@ -31,8 +31,15 @@
 [Submodule "robbyrussell/oh-my-zsh"]
 	path = zsh/.oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
-
+[Submodule "sjl/badwolf"]
+	path = vim/.vim/bundle/badwolf
+	url = https://github.com/sjl/badwolf.git
+[Submodule "maxboisvert/vim-simple-complete"]
+	path = vim/.vim/bundle/vim-simple-complete
+	url = https://github.com/maxboisvert/vim-simple-complete.git
+[Submodule "tpope/vim-sensible"]
+	path = vim/.vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
 [Submodule "haya14busa/incsearch"]
-	path = vim/.vim/bundle/incsearch
+	path = vim/.vim/bundle/incsearch.vim
 	url = https://github.com/haya14busa/incsearch.vim.github
-
