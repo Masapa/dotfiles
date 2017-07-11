@@ -4,7 +4,6 @@ set infercase
 set undofile
 set undodir=~/.vim/undo
 set noswapfile
-
 set nocp
 imap jj <esc>
 imap jk <esc>
@@ -33,3 +32,8 @@ map g/ <Plug>(incsearch-stay)
 set wildmenu
 let g:airline_powerline_fonts = 0
 let g:airline_theme = "raven"
+
+vmap <C-c> "*y     " Yank current selection into system clipboard
+nmap <C-c> "*Y     " Yank current line into system clipboard (if nothing is selected)
+nmap <C-v> "*p     " Paste from system clipboardd
+
