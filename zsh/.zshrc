@@ -10,7 +10,6 @@
 ZSH_THEME="af-magic"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
-[ -z "$STY" ] && screen -DRA "normi"
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
@@ -86,11 +85,16 @@ alias gl='git log --oneline --graph --decorate --all'
 
 export TERM="xterm-256color"
 if [ -f /etc/motd.tcl ]; then /etc/motd.tcl; fi
-source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 setopt CORRECT
-screenfetch
 unset MAILCHECK
 MAILCHECK=0
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/masapa/projektit/google-cloud-sdk/path.zsh.inc' ]; then source '/home/masapa/projektit/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/masapa/projektit/google-cloud-sdk/completion.zsh.inc' ]; then source '/home/masapa/projektit/google-cloud-sdk/completion.zsh.inc'; fi
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
