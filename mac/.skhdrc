@@ -1,0 +1,3 @@
+hyper - return : open -a Terminal --new
+
+hyper -t : killall Terminal
